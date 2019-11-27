@@ -1,0 +1,91 @@
+.linkCadastro {
+	text-decoration: "none";
+	color: black;
+}
+
+.linkCadastro:hover {
+	color: black;	
+}
+
+.linkCadastro:hover .spanNao  {
+	color: "#004f74";
+}
+
+@media( min-width: 1084px ) {
+	.tituloLogin {
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+
+	.inputEmail {
+		width: 250px;
+	}
+
+	.inputSenha {
+		width: 250px;
+	}
+
+	.tituloFeedBackLogin {
+		font-size: 18px;
+	}
+
+	.spanTitulo {
+		font-size: 22px;
+	}
+}
+
+@media( min-width: 1920px ) {
+	.cardLogin {
+		height: 800px;
+	}
+	
+	.tituloLogin {
+		font-size: 43px;
+		letter-spacing: 10px;
+		margin-bottom: 60px;
+	}
+
+	label {
+		font-size: 26px;
+	}
+
+	.inputEmail {
+		width: 800px;
+		height: 50px;
+		font-size: 30px;
+	}
+	
+	.inputSenha {
+		width: 800px;
+		height: 50px;
+		font-size: 30px;
+		margin-bottom: -50px;
+	}
+
+	.hrGambi {
+		margin-bottom: 70px;	
+	}
+	
+	.tituloFeedBackLogin {
+		font-size: 40px;
+		position: absolute;
+	}
+
+	.spanTitulo {
+		font-size: 46px;
+	}
+
+	.btnLogar {
+		margin-top: -70px;
+		width: 100px;
+		height: 50px;
+	}
+
+	.linkCadastro {
+		font-size: 20px;
+	}
+
+	.marcaDAgua {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,92 @@
+.container {
+    max-width: 980px; 
+    margin: 0 auto;   /* top e bottom = 0, left e right = auto */
+    padding-left: 15px;  
+    padding-right: 15px;  
+    box-sizing: border-box;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+
+@media (max-width: 600px) {
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+}
+
+.row {
+    margin: 0 -15px; /*margem negativa para corrigir problema de padding ficar com 30px */
+}
+
+.row:before, /*row com clearfix*/
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.article-image {
+    margin: 0 15px 10px 0;
+}
+
+.col {
+    padding: 0 15px;  /*espaçamento entre as colunas*/
+    float: left;      /*para colunas ficarem uma ao lado da outra*/
+    box-sizing: border-box;  /*padding comprime e não interfere no tamanho*/
+}
+
+.col-sm-25 {
+    width: 25%;
+}
+
+.col-sm-50 {
+    width: 50%;
+}
+
+.col-sm-75 {
+    width: 75%;
+}
+
+.col-sm-100 {
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    .col-md-25 {
+        width: 25%;
+    }
+    
+    .col-md-50 {
+        width: 50%;
+    }
+    
+    .col-md-75 {
+        width: 75%;
+    }
+    
+    .col-md-100 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .col-lg-25 {
+        width: 25%;
+    }
+    
+    .col-lg-50 {
+        width: 50%;
+    }
+    
+    .col-lg-75 {
+        width: 75%;
+    }
+    
+    .col-lg-100 {
+        width: 100%;
+    }
+}

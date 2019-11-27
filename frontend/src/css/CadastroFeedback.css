@@ -1,0 +1,23 @@
+.cardCadastro {
+	height: 70%;
+	width: 50%;
+	margin-left: 39%;
+	margin-top: 6%;
+	border: 1px solid black;
+	box-shadow: 1px 8px 8px 10px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 8px;
+	padding: 10px;
+	box-sizing: border-box;	
+}
+
+textarea{
+	width: 200px;
+	height: 100px;
+	margin: 15px;
+}
+
+.buttonFeedback{
+	cursor: pointer;
+	border-radius: 8px;
+}
+

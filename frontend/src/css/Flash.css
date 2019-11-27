@@ -1,0 +1,32 @@
+.flash {
+    width: 70%;
+    font-size: 2vmin;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    margin-left: 15%;
+    top: 80%;
+    opacity: 0;
+
+}
+
+.fade-in{
+    animation: fadein 1s linear forwards;
+}
+
+.fade-out{
+    animation: fadeout 1s linear forwards;
+}
+
+.verde {
+    background-color: green; 
+}
+
+.vermelho {
+    background-color: red;
+}
+
+@keyframes fadein { from {opacity: 0;} to {opacity: 0.7; visibility: visible;}}
+
+@keyframes fadeout { from {opacity: 0.7;} to {opacity: 0; visibility: hidden;}}
+

@@ -1,0 +1,32 @@
+arrumar layout:
+
+http://localhost:3000/projeto/editar/1
+
+
+---
+Falta fazer:
+Ok... - layout login
+Ok... - layout cadastrar usuário
+Ok... - somente aparecer projeto do gestor logado ao cadastrar feedback
+Ok... - inativar projeto na listagem de projetos
+Ok... - adicionar pontos de melhoria específica
+Ok... - mascara para data de alteração do feedback (listagem-feedback)
+Ok... - tirar botão editar quando for funcionário...
+Ok... - ordem de exibição do feedbacks por data de atualização
+Ok... - só pode ver feedbacks que ele está envolvido...
+Ok... - layout editar projeto
+Ok... - responsividade para tv minds
+Ok... - upload de foto de perfil
+Ok... - comentario do feedback   
+
+- validação de erro de email já cadastrado ao cadastrar usuário (front)
+- validação de erro de email inválido ao cadastrar usuário (front)
+- criar componente header
+- criar componente footer
+
+---
+Talvez não vai dar par fazer:
+- gamification
+- heroku
+
+npm install --save moment react-moment

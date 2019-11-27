@@ -1,0 +1,113 @@
+.tituloFeedBack {
+  font-weight: bold;
+}
+
+.feed {
+  font-size: 25px;
+  color: #004f74;
+  font-weight: bold;
+}
+
+.back {
+  font-size: 25px;
+  color: #11743c;
+  font-weight: bold;
+}
+
+.cardFoto {
+  border: 3px solid #004f74;
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  margin-left: 52px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.cardFoto > .fotoUsuario {
+  height: 100%;
+  width: 100%;
+}
+
+.gerenciamento {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nome {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.tipo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 1084px ) {
+  .footer{
+    height: 8px;
+  }
+
+  .content {
+    height: 500px;
+  }
+
+  .nav-text {
+    font-size: 16;
+  }
+}
+
+@media( min-width: 1920px ) {
+  .header{
+    height: 100px;
+  }
+
+  .content {
+    height: 80vh;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .tituloFeedBack {
+    margin-top: 18px;
+    font-size: 30px;
+  }
+
+  .feed,
+  .back {
+    font-size: 42px;
+  }
+
+  .boasVindas {
+    font-size: 40px;
+  }
+  .gerenciamento {
+    font-size: 20px;
+  }
+
+  .nav-text {
+    font-size: 20px;
+  }
+
+  .itensMenu {
+    margin-bottom: 20px;
+  }
+
+  .nome {
+    font-size: 22px;
+  }
+
+  .tipo {
+    font-size: 22px;
+  }
+
+  .cardFoto {
+    margin-bottom: 10px;
+  }
+}
